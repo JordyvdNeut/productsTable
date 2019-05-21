@@ -1,0 +1,91 @@
+/*
+  Class:    4A7B
+  Name:     J. van der Neut
+  Purpose:  Template layout webpagina
+  
+  mm-dd-yyyy  Description
+  ----------  ----------------------------------
+  23-10-2017  Initial
+*/
+/***************************************************
+  *  Include the padding and border to all elements*
+****************************************************/
+*  {
+  box-sizing: border-box;
+}
+/*************************
+  *  Default setting     *
+  ************************/
+body  {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 100%;
+  font-family: 'Calibri','Arial','Helvetica';
+  color: black;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+  color: black;
+}
+header.sub {
+  height: 50px;
+  width: 100%;
+  background-color: #007AC9;
+  color: black;
+  border: 1px solid black;
+}
+div {
+  float: left;
+  border: 1px solid black;
+  width: 100%;
+}
+div.footer {
+  height: 35px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: blue;
+}
+div.box {
+  border: 3px solid pink;
+}
+div.content {
+  border: 1px solid black;
+  height: 400px;
+  width: 70%;
+  overflow: auto;
+  background-color: green;
+}
+div.nav {
+  border: 1px solid black;
+  height: 400px;
+  width: 30%;
+  background-color: green;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  background-color: blue;
+}
+li a:hover {
+  display: block;
+  color: pink;
+  background-color: gray;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
